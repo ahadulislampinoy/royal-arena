@@ -1,0 +1,18 @@
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #f2f4fa;
+}
+.sports {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-top: 15px;
+}
+.first-half {
+  padding: 60px;
+}
+.second-half {
+  background-color: #fff;
+  padding: 10px 20px;
+}

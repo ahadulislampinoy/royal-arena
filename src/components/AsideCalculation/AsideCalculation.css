@@ -1,0 +1,51 @@
+.everything {
+  display: flex;
+  flex-direction: column;
+}
+.my-info {
+  display: flex;
+  align-items: center;
+}
+.my-info img {
+  width: 20%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.my-info-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #f2f4fa;
+}
+.small-text {
+  color: #5c6673;
+}
+.break-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f2f4fa;
+  padding: 15px;
+}
+.break-second button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-weight: bolder;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.exercise-details {
+  margin-top: 60px;
+}
+.exercise-details h3 {
+  padding: 5px 15px;
+  display: flex;
+  border-radius: 5px;
+  background-color: #f2f4fa;
+  align-items: center;
+  justify-content: space-between;
+}

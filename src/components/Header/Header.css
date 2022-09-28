@@ -1,0 +1,18 @@
+.header {
+  background-color: #f2f4fa;
+}
+.logo {
+  width: 60px;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+}
+.header-title {
+  margin-left: 10px;
+  color: #0472b9;
+}
+.header-subtitle {
+  margin-top: 5px;
+  font-weight: 500;
+}
