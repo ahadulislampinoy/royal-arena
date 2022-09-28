@@ -16,3 +16,20 @@
   background-color: #fff;
   padding: 10px 20px;
 }
+
+/* responsive */
+@media screen and (max-width: 768px) {
+  .home,
+  .sports {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 992px) {
+  .home,
+  .sports {
+    grid-template-columns: 1fr;
+  }
+  .first-half {
+    padding: 30px;
+  }
+}

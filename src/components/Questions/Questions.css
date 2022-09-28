@@ -1,0 +1,28 @@
+.questions {
+  padding: 60px;
+  background-color: #f2f4fa;
+  border-top: 2px solid #000;
+}
+.question-heading {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.singel-question {
+  border-top: 2px solid #000;
+  border-radius: 15px 225px 15px 255px/255px 15px 225px 15px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.singel-question h3 {
+  margin: 0;
+}
+.singel-question p {
+  font-weight: 500;
+  margin: 10px 0 0 15px;
+}
+/* responsive */
+@media screen and (max-width: 992px) {
+  .questions {
+    padding: 30px;
+  }
+}
