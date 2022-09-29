@@ -3,8 +3,9 @@ import './Questions.css';
 
 const Questions = () => {
     return (
-        <div className='questions'>
-            <h2 className='question-heading'>Most Asked Interview Questions</h2>
+        <div>
+            <div className='questions'>
+            <h1 className='question-heading'>Most Asked Interview Questions</h1>
             <div className='singel-question'>
             <h3>1. How does react work?</h3>
             <p>This is how react works: React implements a virtual DOM that is basically a DOM tree representation in JavaScript. So when it needs to read or write to the DOM, it will use the virtual representation of it. Then the virtual DOM will try to find the most efficient way to update the browser’s DOM.
@@ -19,6 +20,7 @@ const Questions = () => {
             <h3>3. Which things you can do with useEffect except fetch data from API?</h3>
             <p>Besides fetching data from API, we can do also things like: directly updating the DOM, setting timers, etc by using useEffect hook.</p>
             </div>
+        </div>
         </div>
     );
 };

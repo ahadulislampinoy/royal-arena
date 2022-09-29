@@ -1,11 +1,14 @@
 .questions {
   padding: 60px;
   background-color: #f2f4fa;
-  border-top: 2px solid #000;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .question-heading {
   text-align: center;
-  margin-bottom: 70px;
+  font-weight: 500;
+  margin-bottom: 80px;
 }
 .singel-question {
   border-top: 2px solid #000;
