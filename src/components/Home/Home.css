@@ -30,5 +30,6 @@
 @media screen and (max-width: 992px) {
   .first-half {
     padding: 30px;
+    background-color: #f2f4fa;
   }
 }
