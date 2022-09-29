@@ -7,7 +7,6 @@ import './Home.css';
 const Home = () => {
     const [sports, setSports]=useState([])
     const [exerciseTime,setExerciseTime]=useState(0)
-    const [breakTime,setBreakTime]=useState(0)
 
     // fetching data
     useEffect(()=>{
