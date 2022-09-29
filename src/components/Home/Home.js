@@ -14,20 +14,11 @@ const Home = () => {
             .then((response) => response.json())
             .then((data) => setSports(data))
     },[])
-    // get data from localStorage and set into breakTime
-    // useEffect(()=>{
-    //     const getBreakTimeFromLS=localStorage.getItem('break-time')
-    //     const parsebreakTime=JSON.parse(getBreakTimeFromLS)
-    //     setBreakTime(parsebreakTime)
-    // },[exerciseTime])
 
-    // event handler for exercise and break time
     const getExerciseTime=(time)=>{
         // set exercise time to it's state
         const newexerciseTime=exerciseTime+time
         setExerciseTime(newexerciseTime)
-        // set break time into localStorage
-        // localStorage.setItem('break-time',JSON.stringify(time))
     }
 
     return (
