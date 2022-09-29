@@ -23,7 +23,7 @@ const Home = () => {
 
     return (
         <div className='home'>
-            <div className='first-half'>
+           <div className='first-half'>
                 <Header></Header>
                 <div className='sports'>
                     {sports.map(sport=><Sports sport={sport} getExerciseTime={getExerciseTime}  key={sport.id}></Sports>)}
@@ -31,7 +31,7 @@ const Home = () => {
             </div>
             <div className="second-half">
             <AsideCalculation exerciseTime={exerciseTime}></AsideCalculation>
-            </div>
+           </div>
         </div>
     );
 };
