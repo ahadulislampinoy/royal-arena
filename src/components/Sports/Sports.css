@@ -22,7 +22,7 @@
 .btn-add {
   width: 100%;
   padding: 10px 0;
-  background: #0473b9;
+  background: #1a6b50;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -32,5 +32,5 @@
   justify-content: center;
 }
 .btn-add:hover {
-  background-color: #023475;
+  background-color: #03854b;
 }

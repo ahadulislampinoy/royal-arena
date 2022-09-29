@@ -49,14 +49,14 @@
   width: 100%;
   padding: 15px 0;
   margin-top: 60px;
-  background: #0473b9;
+  background: #1a6b50;
   color: #fff;
   border: none;
   border-radius: 5px;
   font-weight: bold;
 }
 .btn-completed:hover {
-  background-color: #023475;
+  background-color: #03854b;
 }
 
 /* responsive */
