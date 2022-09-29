@@ -4,7 +4,7 @@ import './AsideCalculation.css';
 
 const AsideCalculation = () => {
     return (
-        <div className='everything'>
+        <div>
             <div className="my-info">
             <img src={myImg} alt="" />
             <h4>Ahadul Islam Pinoy</h4>
@@ -26,6 +26,7 @@ const AsideCalculation = () => {
             <h3>Exercise time <p>0</p></h3>
             <h3>Break time <p>0</p></h3>
             </div>
+            <button className="btn-completed">Activity Completed</button>
         </div>
     );
 };

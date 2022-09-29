@@ -23,12 +23,11 @@
   .sports {
     grid-template-columns: 1fr;
   }
+  .home {
+    margin-bottom: 40px;
+  }
 }
 @media screen and (max-width: 992px) {
-  .home,
-  .sports {
-    grid-template-columns: 1fr;
-  }
   .first-half {
     padding: 30px;
   }
