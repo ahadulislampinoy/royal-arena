@@ -26,15 +26,18 @@ const AsideCalculation = (props) => {
         
     return (
         <div>
+            {/* my image, name */}
             <div className="my-info">
             <img src={myImg} alt="" />
             <h4>Ahadul Islam Pinoy</h4>
             </div>
+            {/* my weight, height, age */}
             <div className="my-info-details">
                     <h3>67<small className='small-text'>kg</small></h3>
                     <h3>5'10"</h3>
                     <h3>18<small className='small-text'>yrs</small></h3>
             </div>
+            {/* break part */}
             <h3>Add A Break</h3>
             <div className='break-button-conatiner'>
             <button onClick={()=>addTimeIntoLS(5)}>5m</button>
@@ -42,6 +45,7 @@ const AsideCalculation = (props) => {
             <button onClick={()=>addTimeIntoLS(30)}>30m</button>
             <button onClick={()=>addTimeIntoLS(45)}>45m</button>
             </div>
+            {/* exercise part */}
             <div className="exercise-details">
             <h2>Exercise Details</h2>
             <h3>Exercise time <p>{exerciseTime} <small className='small-text'>hours</small></p></h3>

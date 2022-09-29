@@ -15,8 +15,8 @@ const Home = () => {
             .then((data) => setSports(data))
     },[])
 
+    // calculate exercise time and set to state
     const getExerciseTime=(time)=>{
-        // set exercise time to it's state
         const newexerciseTime=exerciseTime+time
         setExerciseTime(newexerciseTime)
     }
