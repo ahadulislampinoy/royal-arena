@@ -1,8 +1,8 @@
 import React from 'react';
 import './Sports.css';
 
-const Sports = (props) => {
-    const{img,name,time}=props.sport
+const Sports = ({sport,getExerciseTime}) => {
+    const{img,name,time}=sport
     return (
       <div className='sport'>
       <img src={img} alt="" />
@@ -10,7 +10,7 @@ const Sports = (props) => {
           <h3 className='sport-name'>{name}</h3>
           <p className='sport-time'>Time required: {time}hr</p>
           <div className='btn-container'>
-          <button className='btn-add'>Add to list</button>
+          <button className='btn-add' onClick={()=>getExerciseTime(time)}>Add to list</button>
           </div>
       </div>
       </div>

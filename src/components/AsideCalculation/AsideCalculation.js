@@ -2,7 +2,9 @@ import React from 'react';
 import myImg from '../../images/myself.jpg';
 import './AsideCalculation.css';
 
-const AsideCalculation = () => {
+const AsideCalculation = (props) => {
+    const {exerciseTime}=props
+    // console.log(exerciseTime);
     return (
         <div>
             <div className="my-info">
@@ -15,7 +17,7 @@ const AsideCalculation = () => {
                     <h3>18<small className='small-text'>yrs</small></h3>
             </div>
             <h3>Add A Break</h3>
-            <div className='break-second'>
+            <div className='break-button-conatiner'>
             <button>10s</button>
             <button>20s</button>
             <button>30s</button>
@@ -23,8 +25,8 @@ const AsideCalculation = () => {
             </div>
             <div className="exercise-details">
             <h2>Exercise Details</h2>
-            <h3>Exercise time <p>0</p></h3>
-            <h3>Break time <p>0</p></h3>
+            <h3>Exercise time <p>{exerciseTime}</p></h3>
+            <h3>Break time <p></p></h3>
             </div>
             <button className="btn-completed">Activity Completed</button>
         </div>

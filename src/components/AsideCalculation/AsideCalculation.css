@@ -18,14 +18,14 @@
 .small-text {
   color: #5c6673;
 }
-.break-second {
+.break-button-conatiner {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #f2f4fa;
   padding: 15px;
 }
-.break-second button {
+.break-button-conatiner button {
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
